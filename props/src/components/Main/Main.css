@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: #ffc72c;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 72px 52px;
+}
+
+h1 {
+  font-family: Inter;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 61px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+
+span {
+  color: #db0007;
+  font-family: Inter;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 61px;
+  letter-spacing: 0em;
+  text-align: left;
+}

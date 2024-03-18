@@ -4,15 +4,30 @@
   box-sizing: border-box;
 }
 
-main {
+.container {
   background-color: #ffc72c;
 }
 
-.container {
+.top {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 72px 52px;
+}
+
+.lanches {
+  display: flex;
+  justify-content: center;
+}
+
+.lanches img {
+  margin: 77px;
+  cursor: pointer;
+}
+
+.bigmac {
+  width: 118.57px;
+  height: 100px;
 }
 
 h1 {
@@ -33,4 +48,8 @@ span {
   line-height: 61px;
   letter-spacing: 0em;
   text-align: left;
+}
+
+.container2 {
+  background-color: #ffbc0d;
 }

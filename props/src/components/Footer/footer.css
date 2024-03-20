@@ -1,0 +1,39 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.direitos-autorais {
+  display: flex;
+  align-items: center;
+  margin: 26px 52px;
+}
+
+.direitos-autorais p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 18.75px;
+  text-align: left;
+}
+
+.direitos-autorais img {
+  width: 23.53px;
+  height: 20px;
+  opacity: 0px;
+  margin-right: 15px;
+}
+
+.download-lojas {
+  margin: 26px 52px;
+}
+
+.download-lojas img {
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.download-lojas img:hover {
+  transform: scale(105%);
+}
